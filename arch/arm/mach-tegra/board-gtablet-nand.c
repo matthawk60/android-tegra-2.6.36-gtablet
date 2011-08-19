@@ -426,9 +426,21 @@ static struct mtd_partition gtablet_nand_partitions[] = {
 	},
 	[4] = {
 		.name		= "cache",
-		.offset		= 350464*1024,
+		.offset		=  350464*1024,
 		.size		=  173312*1024,
 	},
+	[5] = {
+		.name		= "bootbmp",
+		.offset		=  7424*1024,
+		.size		=  4096*1024,
+	},
+	[6] = {
+		.name		= "logodata",
+		.offset		=  28928*1024,
+		.size		=  3276*1024,
+	},
+};
+};
 };
 
 static struct tegra_nand_platform gtablet_nand_data = {
