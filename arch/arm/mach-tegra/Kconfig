@@ -38,6 +38,11 @@ config MACH_ADAM
        help
          Support for all TabletPCs based on the SMBA1006 design.
 
+config MACH_GTABLET
+       bool "Viewsonic Gtablet"
+       help
+         Support for all Tablets based on the Malata SMBA1002 design.
+
 
 choice
         prompt "Low-level debug console UART"

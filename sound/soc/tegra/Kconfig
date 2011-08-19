@@ -64,3 +64,16 @@ config SND_TEGRA_SOC_ADAM
 	help
 	  Say Y or M here if you want to add support for SoC audio on the
 	  Notion Ink Adam Tablet PCs.
+
+
+config SND_TEGRA_SOC_GTABLET
+	tristate "SoC Audio support for Viewsonic Gtablets (SMBA1002)"
+	depends on SND_TEGRA_SOC && MACH_GTABLET && I2C
+	default m
+	select SND_TEGRA_SOC_I2S
+	select SND_TEGRA_SOC_IEC
+	select SND_TEGRA_SOC_PCM
+	select SND_SOC_ALC5624
+	help
+	  Say Y or M here if you want to add support for SoC audio on the
+	  Viewsonic Gtablet (SMBA1002).

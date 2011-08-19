@@ -122,6 +122,34 @@ obj-${CONFIG_MACH_ADAM}              += board-adam-pm-gps.o
 obj-${CONFIG_MACH_ADAM}              += board-adam-pm-gsm.o
 #obj-${CONFIG_MACH_ADAM}              += board-adam-pm-wlan.o
 
+# Gtablet arch drivers
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-aes.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-audio.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-bootinfo.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-bt.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-camera.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-clocks.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-gpu.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-i2c.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-keyboard.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-memory.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-nand.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-pinmux.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-power.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-sdhci.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-sensors.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-spi.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-touch.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-uart.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-usb.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-wdt.o
+#obj-${CONFIG_MACH_GTABLET}              += board-gtablet-wlan.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet.o
+# Gtablet power management drivers
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-pm-bluetooth.o
+obj-${CONFIG_MACH_GTABLET}              += board-gtablet-pm-camera.o
+#obj-${CONFIG_MACH_GTABLET}              += board-gtablet-pm-wlan.o
+
 obj-${CONFIG_MACH_VENTANA}              += board-ventana.o
 obj-${CONFIG_MACH_VENTANA}              += board-ventana-pinmux.o
 obj-${CONFIG_MACH_VENTANA}              += board-ventana-sdhci.o
