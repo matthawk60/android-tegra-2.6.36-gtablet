@@ -440,8 +440,6 @@ static struct mtd_partition gtablet_nand_partitions[] = {
 		.size		=  3276*1024,
 	},
 };
-};
-};
 
 static struct tegra_nand_platform gtablet_nand_data = {
 	.max_chips	= 8,
