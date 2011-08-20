@@ -39,25 +39,25 @@
 static struct tegra_i2c_platform_data gtablet_i2c1_platform_data = {
 	.adapter_nr	= 0,
 	.bus_count	= 1,
-	.bus_clk_rate	= { 100000, 0 },
+	.bus_clk_rate	= { 72000, 0 },
 };
 
 static struct tegra_i2c_platform_data gtablet_i2c2_platform_data = {
 	.adapter_nr	= 1,
 	.bus_count	= 1,
-	.bus_clk_rate	= { 100000, 0 },
+	.bus_clk_rate	= { 72000, 0 },
 };
 
 static struct tegra_i2c_platform_data gtablet_i2c3_platform_data = {
 	.adapter_nr	= 2,
 	.bus_count	= 1,
-	.bus_clk_rate	= { 100000, 0 },
+	.bus_clk_rate	= { 72000, 0 },
 };
 
 static struct tegra_i2c_platform_data gtablet_dvc_platform_data = {
 	.adapter_nr	= 3,
 	.bus_count	= 1,
-	.bus_clk_rate	= { 100000, 0 },
+	.bus_clk_rate	= { 72000, 0 },
 	.is_dvc		= true,
 };
 
